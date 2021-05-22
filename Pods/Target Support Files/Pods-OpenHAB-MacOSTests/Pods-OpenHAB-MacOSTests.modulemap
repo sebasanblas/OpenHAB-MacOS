@@ -1,0 +1,6 @@
+framework module Pods_OpenHAB_MacOSTests {
+  umbrella header "Pods-OpenHAB-MacOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

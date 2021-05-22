@@ -1,0 +1,1065 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		147B39CB664B478CCACAACAD8CBA6171 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250096901DC4EC6616B3DDAB5BB93F6 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-dummy.m */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A56C422D89DE95548EF2C1E16C94597F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21136CC85AA02623F9B546B462BE3B88 /* Pods-OpenHAB-MacOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A73E954F9C21FCFFF30E45AA41AE73D /* Pods-OpenHAB-MacOSTests-dummy.m */; };
+		26ECA88F961A2BF7B857D7281FAA5E2F /* Pods-OpenHAB-MacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F92DA994866E0F05BDF578BCADD75C94 /* Pods-OpenHAB-MacOS-dummy.m */; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C147774CC441F391B4D7CA698F3C2BC0 /* SwiftyJSON-dummy.m */; };
+		31C9B1C4E840AC913A16B2F71961D513 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		579DAEE3EE6398288834490A134A510A /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC1885383570E01A118EF96F029BAE1 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632A553B8CC2603D381C8A0D97CBDB11 /* Pods-OpenHAB-MacOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA31B6FD6A3DA243E4643F049D9AB64 /* Pods-OpenHAB-MacOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63AF545153A01DC484BB0F99868E2A6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		77B13F1A9426944725B1A683916FB9DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558352FECE95FE65E1A7A412F1AB9104 /* SwiftyJSON.swift */; };
+		C33BE168E0556DCEC66B00EB5069C558 /* Pods-OpenHAB-MacOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A3828EDFFBD9A9B6D9170482953F08 /* Pods-OpenHAB-MacOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6EC64ABA3B69C1316B447981949BADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ACEFB99579B45858A5AE9C7B49C3347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7771F8D49226684D6ACE76A538FCE87F;
+			remoteInfo = "Pods-OpenHAB-MacOS";
+		};
+		39D7EFBD9FB8FA28D9C1AFDB7DF1823E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		3D2B7596D851CA9FD3D68DF041B72598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		B77A85B82E3855224888B80256D5989A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		B86FC8654ED56BE4B92F4150DB97E586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A1CD52969BA76FEBA0404153DCBFFE /* Pods-OpenHAB-MacOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHAB-MacOSTests-Info.plist"; sourceTree = "<group>"; };
+		08C5959A5C5957F9F056178777670239 /* Pods-OpenHAB-MacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenHAB-MacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A73E954F9C21FCFFF30E45AA41AE73D /* Pods-OpenHAB-MacOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenHAB-MacOSTests-dummy.m"; sourceTree = "<group>"; };
+		156287493923028E4149D326F3E4D6FF /* Pods-OpenHAB-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHAB-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		294D0BEA78EF8F1FFEFED003DB08307A /* Pods-OpenHAB-MacOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHAB-MacOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3250096901DC4EC6616B3DDAB5BB93F6 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-dummy.m"; sourceTree = "<group>"; };
+		3C065DA9D9A63637EA13FBCF4D1E0C72 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		3FC1885383570E01A118EF96F029BAE1 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		433F16A09A694BB8A02E49B097CABE18 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		433F54E3A4E78C233CCC1AF466975C67 /* Pods-OpenHAB-MacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHAB-MacOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		47E680660829C7CB1852979A5F452607 /* Pods-OpenHAB-MacOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenHAB-MacOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48C29915D86C3832769E62EA2B107C33 /* Pods-OpenHAB-MacOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHAB-MacOS-Info.plist"; sourceTree = "<group>"; };
+		4B3261413DC2EDE895C277DBA1A877C9 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		52ED0174C5528FCBD9B2A09240EBDF24 /* Pods_OpenHAB_MacOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHAB_MacOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558352FECE95FE65E1A7A412F1AB9104 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		563797A9683B9420100732B797B69564 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		579D748592FE51BCB6A84F3D97DAF5B5 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58E2D9C4245C740B2F470D9F44A407DA /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AA31C18E3BA4F7F3736F9B8E8F00336 /* Pods-OpenHAB-MacOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenHAB-MacOS.modulemap"; sourceTree = "<group>"; };
+		7383E50B0A806A7BC1B6F4DD30F2CE28 /* Pods-OpenHAB-MacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHAB-MacOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		80D96BD380192A8551A996A33FBC45D9 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8637720BDC51396788BD6041AE41993F /* Pods-OpenHAB-MacOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenHAB-MacOSTests.modulemap"; sourceTree = "<group>"; };
+		9057F120104F63E26C25F7BD665CB42D /* Pods_OpenHAB_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHAB_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93254AD3C02359463E66CA72846B1C2B /* Pods_OpenHAB_MacOS_OpenHAB_MacOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHAB_MacOS_OpenHAB_MacOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97562DDA4813C6691703C8BA8D6CE652 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.modulemap"; sourceTree = "<group>"; };
+		9A42E1DA99C2CEDCC74D8411318BBD63 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A56C422D89DE95548EF2C1E16C94597F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		AAA31B6FD6A3DA243E4643F049D9AB64 /* Pods-OpenHAB-MacOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenHAB-MacOS-umbrella.h"; sourceTree = "<group>"; };
+		AB22F8DF97CEBFE415ED319BE74D732B /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C147774CC441F391B4D7CA698F3C2BC0 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		D14F2E2A0152EC139F8E7823C046C043 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-Info.plist"; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E626D7C56EE66E6BF6F07E078526C930 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		E9FBF9AEB8BAE402D9E199CDE048C50F /* Pods-OpenHAB-MacOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenHAB-MacOS-frameworks.sh"; sourceTree = "<group>"; };
+		F3A3828EDFFBD9A9B6D9170482953F08 /* Pods-OpenHAB-MacOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenHAB-MacOSTests-umbrella.h"; sourceTree = "<group>"; };
+		F3EEF0696B5BA9968DED7C24459990ED /* Pods-OpenHAB-MacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHAB-MacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5350FBB49ACE1C7EBCAE2BBF6C0B68C /* Pods-OpenHAB-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHAB-MacOS.release.xcconfig"; sourceTree = "<group>"; };
+		F6B181FBF512EE69EF4756F8FCADC734 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		F92DA994866E0F05BDF578BCADD75C94 /* Pods-OpenHAB-MacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenHAB-MacOS-dummy.m"; sourceTree = "<group>"; };
+		FD297EF8A80425DD4D8D92A32763BBF3 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0759D10262AE59FEBA30481F39CA8FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AF545153A01DC484BB0F99868E2A6D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0887096EDC481CB47D9D083B4D5DCA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B13F1A9426944725B1A683916FB9DC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7818606FA4B725242E9811C494383EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EC64ABA3B69C1316B447981949BADE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804594AE5D8233AA31E63FC751DFFDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C9B1C4E840AC913A16B2F71961D513 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02821A7B2B597BEB3940DBBC9C063B98 /* Pods-OpenHAB-MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AA31C18E3BA4F7F3736F9B8E8F00336 /* Pods-OpenHAB-MacOS.modulemap */,
+				08C5959A5C5957F9F056178777670239 /* Pods-OpenHAB-MacOS-acknowledgements.markdown */,
+				7383E50B0A806A7BC1B6F4DD30F2CE28 /* Pods-OpenHAB-MacOS-acknowledgements.plist */,
+				F92DA994866E0F05BDF578BCADD75C94 /* Pods-OpenHAB-MacOS-dummy.m */,
+				E9FBF9AEB8BAE402D9E199CDE048C50F /* Pods-OpenHAB-MacOS-frameworks.sh */,
+				48C29915D86C3832769E62EA2B107C33 /* Pods-OpenHAB-MacOS-Info.plist */,
+				AAA31B6FD6A3DA243E4643F049D9AB64 /* Pods-OpenHAB-MacOS-umbrella.h */,
+				156287493923028E4149D326F3E4D6FF /* Pods-OpenHAB-MacOS.debug.xcconfig */,
+				F5350FBB49ACE1C7EBCAE2BBF6C0B68C /* Pods-OpenHAB-MacOS.release.xcconfig */,
+			);
+			name = "Pods-OpenHAB-MacOS";
+			path = "Target Support Files/Pods-OpenHAB-MacOS";
+			sourceTree = "<group>";
+		};
+		0D2045EB053B30E37A4E0596F49FA42D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12BD34C8FA8ECA4BEBD61BE05691F032 /* SwiftLint */,
+				7E31E8F208AC35C16618C261913BA19D /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		12BD34C8FA8ECA4BEBD61BE05691F032 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				2C10E9B1AD22FE2688C778F702008A86 /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		2C10E9B1AD22FE2688C778F702008A86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E626D7C56EE66E6BF6F07E078526C930 /* SwiftLint.debug.xcconfig */,
+				FD297EF8A80425DD4D8D92A32763BBF3 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		3B2EC9BD5BA6761F40CF07D413967530 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02821A7B2B597BEB3940DBBC9C063B98 /* Pods-OpenHAB-MacOS */,
+				5ADE38E91C34DA91BF3A05CF9C68B328 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests */,
+				FFF29327F8C81A4868D97B4B2E644340 /* Pods-OpenHAB-MacOSTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5ADE38E91C34DA91BF3A05CF9C68B328 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97562DDA4813C6691703C8BA8D6CE652 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.modulemap */,
+				AB22F8DF97CEBFE415ED319BE74D732B /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-acknowledgements.markdown */,
+				579D748592FE51BCB6A84F3D97DAF5B5 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-acknowledgements.plist */,
+				3250096901DC4EC6616B3DDAB5BB93F6 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-dummy.m */,
+				80D96BD380192A8551A996A33FBC45D9 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-frameworks.sh */,
+				D14F2E2A0152EC139F8E7823C046C043 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-Info.plist */,
+				3FC1885383570E01A118EF96F029BAE1 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-umbrella.h */,
+				563797A9683B9420100732B797B69564 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.debug.xcconfig */,
+				58E2D9C4245C740B2F470D9F44A407DA /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.release.xcconfig */,
+			);
+			name = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests";
+			path = "Target Support Files/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests";
+			sourceTree = "<group>";
+		};
+		79F1613DE9C7A9C99D287368DDAE881B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3261413DC2EDE895C277DBA1A877C9 /* SwiftyJSON.modulemap */,
+				C147774CC441F391B4D7CA698F3C2BC0 /* SwiftyJSON-dummy.m */,
+				F6B181FBF512EE69EF4756F8FCADC734 /* SwiftyJSON-Info.plist */,
+				433F16A09A694BB8A02E49B097CABE18 /* SwiftyJSON-prefix.pch */,
+				A56C422D89DE95548EF2C1E16C94597F /* SwiftyJSON-umbrella.h */,
+				9A42E1DA99C2CEDCC74D8411318BBD63 /* SwiftyJSON.debug.xcconfig */,
+				3C065DA9D9A63637EA13FBCF4D1E0C72 /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		7E31E8F208AC35C16618C261913BA19D /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				558352FECE95FE65E1A7A412F1AB9104 /* SwiftyJSON.swift */,
+				79F1613DE9C7A9C99D287368DDAE881B /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		87D163E8E2F167993FB583DA2B59EF96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9057F120104F63E26C25F7BD665CB42D /* Pods_OpenHAB_MacOS.framework */,
+				93254AD3C02359463E66CA72846B1C2B /* Pods_OpenHAB_MacOS_OpenHAB_MacOSUITests.framework */,
+				52ED0174C5528FCBD9B2A09240EBDF24 /* Pods_OpenHAB_MacOSTests.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				0D2045EB053B30E37A4E0596F49FA42D /* Pods */,
+				87D163E8E2F167993FB583DA2B59EF96 /* Products */,
+				3B2EC9BD5BA6761F40CF07D413967530 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		FFF29327F8C81A4868D97B4B2E644340 /* Pods-OpenHAB-MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8637720BDC51396788BD6041AE41993F /* Pods-OpenHAB-MacOSTests.modulemap */,
+				47E680660829C7CB1852979A5F452607 /* Pods-OpenHAB-MacOSTests-acknowledgements.markdown */,
+				294D0BEA78EF8F1FFEFED003DB08307A /* Pods-OpenHAB-MacOSTests-acknowledgements.plist */,
+				0A73E954F9C21FCFFF30E45AA41AE73D /* Pods-OpenHAB-MacOSTests-dummy.m */,
+				07A1CD52969BA76FEBA0404153DCBFFE /* Pods-OpenHAB-MacOSTests-Info.plist */,
+				F3A3828EDFFBD9A9B6D9170482953F08 /* Pods-OpenHAB-MacOSTests-umbrella.h */,
+				F3EEF0696B5BA9968DED7C24459990ED /* Pods-OpenHAB-MacOSTests.debug.xcconfig */,
+				433F54E3A4E78C233CCC1AF466975C67 /* Pods-OpenHAB-MacOSTests.release.xcconfig */,
+			);
+			name = "Pods-OpenHAB-MacOSTests";
+			path = "Target Support Files/Pods-OpenHAB-MacOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2764A7D8C9979C765B34E0867B341A59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A553B8CC2603D381C8A0D97CBDB11 /* Pods-OpenHAB-MacOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E13AC6B0F3154E6037983D07C5CB029 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33BE168E0556DCEC66B00EB5069C558 /* Pods-OpenHAB-MacOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B22A7307C43407DC725AAE80C985AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579DAEE3EE6398288834490A134A510A /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F9627D6584C17BAFDE95E112F2C39E6 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B4DBF6C733D6011C91F771DE6819502 /* Build configuration list for PBXNativeTarget "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests" */;
+			buildPhases = (
+				B1B22A7307C43407DC725AAE80C985AE /* Headers */,
+				C5CF0D4D07AD9C89D7CDB7FB594D09CE /* Sources */,
+				0759D10262AE59FEBA30481F39CA8FCA /* Frameworks */,
+				B3506F0EDE958CED3B3B41B8BE8191C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E65BFBDFAE438F6264397BFB9D3C7578 /* PBXTargetDependency */,
+				BBEF473D8711AE67BEE4FE6F0DC083CB /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests";
+			productName = "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests";
+			productReference = 93254AD3C02359463E66CA72846B1C2B /* Pods_OpenHAB_MacOS_OpenHAB_MacOSUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7771F8D49226684D6ACE76A538FCE87F /* Pods-OpenHAB-MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2843885EA9C31112A0AAECEE534A905 /* Build configuration list for PBXNativeTarget "Pods-OpenHAB-MacOS" */;
+			buildPhases = (
+				2764A7D8C9979C765B34E0867B341A59 /* Headers */,
+				8A136C7273D7BC22455B5AA9ABB61AE3 /* Sources */,
+				0887096EDC481CB47D9D083B4D5DCA9A /* Frameworks */,
+				1EC5C386E0ACD0AA5D44189EA491E6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761B2F308061430BAD3A2F2A3C721D71 /* PBXTargetDependency */,
+				D0F5F35F99D635D59BE8A5AE6693F2EE /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenHAB-MacOS";
+			productName = "Pods-OpenHAB-MacOS";
+			productReference = 9057F120104F63E26C25F7BD665CB42D /* Pods_OpenHAB_MacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		826827E46C50671559A89244D74D10BE /* Pods-OpenHAB-MacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928D6AD3DA4F572A95B0E3A746B650EC /* Build configuration list for PBXNativeTarget "Pods-OpenHAB-MacOSTests" */;
+			buildPhases = (
+				7E13AC6B0F3154E6037983D07C5CB029 /* Headers */,
+				7A2DB298500B7DF5E5065C75A9F395EF /* Sources */,
+				804594AE5D8233AA31E63FC751DFFDAC /* Frameworks */,
+				499E0198B7F232A48887953A5B00E177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162E0FAA05164D0C15CE07FA31E1BF52 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenHAB-MacOSTests";
+			productName = "Pods-OpenHAB-MacOSTests";
+			productReference = 52ED0174C5528FCBD9B2A09240EBDF24 /* Pods_OpenHAB_MacOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				7818606FA4B725242E9811C494383EDD /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 87D163E8E2F167993FB583DA2B59EF96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7771F8D49226684D6ACE76A538FCE87F /* Pods-OpenHAB-MacOS */,
+				1F9627D6584C17BAFDE95E112F2C39E6 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests */,
+				826827E46C50671559A89244D74D10BE /* Pods-OpenHAB-MacOSTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC5C386E0ACD0AA5D44189EA491E6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499E0198B7F232A48887953A5B00E177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3506F0EDE958CED3B3B41B8BE8191C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2DB298500B7DF5E5065C75A9F395EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21136CC85AA02623F9B546B462BE3B88 /* Pods-OpenHAB-MacOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A136C7273D7BC22455B5AA9ABB61AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ECA88F961A2BF7B857D7281FAA5E2F /* Pods-OpenHAB-MacOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CF0D4D07AD9C89D7CDB7FB594D09CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147B39CB664B478CCACAACAD8CBA6171 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162E0FAA05164D0C15CE07FA31E1BF52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenHAB-MacOS";
+			target = 7771F8D49226684D6ACE76A538FCE87F /* Pods-OpenHAB-MacOS */;
+			targetProxy = 1ACEFB99579B45858A5AE9C7B49C3347 /* PBXContainerItemProxy */;
+		};
+		761B2F308061430BAD3A2F2A3C721D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 39D7EFBD9FB8FA28D9C1AFDB7DF1823E /* PBXContainerItemProxy */;
+		};
+		BBEF473D8711AE67BEE4FE6F0DC083CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = B77A85B82E3855224888B80256D5989A /* PBXContainerItemProxy */;
+		};
+		D0F5F35F99D635D59BE8A5AE6693F2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = B86FC8654ED56BE4B92F4150DB97E586 /* PBXContainerItemProxy */;
+		};
+		E65BFBDFAE438F6264397BFB9D3C7578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 3D2B7596D851CA9FD3D68DF041B72598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE172D8F2A4843BFACAD21A0ED26541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1358DB0A6D5E4D7C72EE13C1BD65838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A42E1DA99C2CEDCC74D8411318BBD63 /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FCD3BA92190B2CB5B8C8DEB73003604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 563797A9683B9420100732B797B69564 /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		248971126B9D3011F16A7176B7A53CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156287493923028E4149D326F3E4D6FF /* Pods-OpenHAB-MacOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHAB-MacOS/Pods-OpenHAB-MacOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHAB-MacOS/Pods-OpenHAB-MacOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37EF91DB1F252897502EC37FD1183BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E626D7C56EE66E6BF6F07E078526C930 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F780DFA6FABD6DFA7B18E3C37FC35A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3EEF0696B5BA9968DED7C24459990ED /* Pods-OpenHAB-MacOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHAB-MacOSTests/Pods-OpenHAB-MacOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHAB-MacOSTests/Pods-OpenHAB-MacOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48962536F0953CC589E4B93B2086BE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD297EF8A80425DD4D8D92A32763BBF3 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5605864EE0993CF2991B80E50FB56D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E2D9C4245C740B2F470D9F44A407DA /* Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests/Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		808E544862838153672EA12FCC127D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A61D94987CB6A9306C5FCC7FF81222CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C065DA9D9A63637EA13FBCF4D1E0C72 /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E775D29AF431675B3EA0BCC7CFD0AA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433F54E3A4E78C233CCC1AF466975C67 /* Pods-OpenHAB-MacOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHAB-MacOSTests/Pods-OpenHAB-MacOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHAB-MacOSTests/Pods-OpenHAB-MacOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED9C229862BB12C31E8BBB693839F4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5350FBB49ACE1C7EBCAE2BBF6C0B68C /* Pods-OpenHAB-MacOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHAB-MacOS/Pods-OpenHAB-MacOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHAB-MacOS/Pods-OpenHAB-MacOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B4DBF6C733D6011C91F771DE6819502 /* Build configuration list for PBXNativeTarget "Pods-OpenHAB-MacOS-OpenHAB-MacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCD3BA92190B2CB5B8C8DEB73003604 /* Debug */,
+				5605864EE0993CF2991B80E50FB56D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808E544862838153672EA12FCC127D9A /* Debug */,
+				0AE172D8F2A4843BFACAD21A0ED26541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1358DB0A6D5E4D7C72EE13C1BD65838D /* Debug */,
+				A61D94987CB6A9306C5FCC7FF81222CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928D6AD3DA4F572A95B0E3A746B650EC /* Build configuration list for PBXNativeTarget "Pods-OpenHAB-MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F780DFA6FABD6DFA7B18E3C37FC35A5 /* Debug */,
+				E775D29AF431675B3EA0BCC7CFD0AA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EF91DB1F252897502EC37FD1183BD6 /* Debug */,
+				48962536F0953CC589E4B93B2086BE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2843885EA9C31112A0AAECEE534A905 /* Build configuration list for PBXNativeTarget "Pods-OpenHAB-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248971126B9D3011F16A7176B7A53CE2 /* Debug */,
+				ED9C229862BB12C31E8BBB693839F4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
