@@ -20,7 +20,7 @@ class PreferencesViewController: NSViewController {
         internetConnection.checkConnection(false)
         statusIcon.image = NSImage(named: UserDefaultsManagement.statusIcon)
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         localURLField.stringValue = String(UserDefaultsManagement.localURL)

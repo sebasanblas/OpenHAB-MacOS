@@ -61,14 +61,14 @@ class InternetConnection {
        }
 
     // MARK: - Check URL Function
-    func checkURL(localURLInput: String, ExternalURLInput: String) -> (status: String, URLOutput: String) {
+    func checkURL(localURLInput: String, externalURLInput: String) -> (status: String, URLOutput: String) {
         if statusNetwork(inputURL: localURLInput) == true && isJSON(inputURL: localURLInput) == true {
             return (status: "Connected", URLOutput: localURLInput)
-        } else if statusNetwork(inputURL: ExternalURLInput) == true && isJSON(inputURL: ExternalURLInput) == true {
-            return (status: "Connected", URLOutput: ExternalURLInput)
-        } else if (statusNetwork(inputURL: ExternalURLInput) ||
+        } else if statusNetwork(inputURL: externalURLInput) == true && isJSON(inputURL: externalURLInput) == true {
+            return (status: "Connected", URLOutput: externalURLInput)
+        } else if (statusNetwork(inputURL: externalURLInput) ||
                     statusNetwork(inputURL: localURLInput)) == true &&
-                    (isJSON(inputURL: ExternalURLInput) || isJSON(inputURL: localURLInput)) == false {
+                    (isJSON(inputURL: externalURLInput) || isJSON(inputURL: localURLInput)) == false {
             os_log("Problems getting the JSON file", log: defaultLog, type: .error)
             return (status: "Caution", URLOutput: "")
         } else {
@@ -85,7 +85,7 @@ class InternetConnection {
                 UserDefaultsManagement.connectionOkey = false
             } else {
                 let output = checkURL(localURLInput: UserDefaultsManagement.localURL,
-                                      ExternalURLInput: UserDefaultsManagement.localURL)
+                                      externalURLInput: UserDefaultsManagement.localURL)
                 if output.status == "Connected" {
                     os_log("Established connection", log: defaultLog, type: .info)
                     UserDefaultsManagement.urlToUse = output.URLOutput
@@ -100,7 +100,7 @@ class InternetConnection {
             }
         } else if url == false {
             let output = checkURL(localURLInput: UserDefaultsManagement.localURL,
-                                  ExternalURLInput: UserDefaultsManagement.localURL)
+                                  externalURLInput: UserDefaultsManagement.localURL)
             if output.status == "Connected" {
                 os_log("Established connection", log: defaultLog, type: .info)
                 UserDefaultsManagement.urlToUse = output.URLOutput

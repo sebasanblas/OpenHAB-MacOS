@@ -13,5 +13,5 @@ class ItemCellView: NSTableCellView {
     @IBOutlet var itemName: NSTextField!
     @IBOutlet var itemTypeSwitch: NSSwitch!
     @IBOutlet var itemType: NSButton!
-    
+
 }
